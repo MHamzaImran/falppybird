@@ -1,0 +1,5 @@
+{
+  "name": "FlappyBox",
+  "description": "A simple and fun Flappy Bird clone built with React, TypeScript, and Tailwind CSS. Control the box, navigate through the pipes, and aim for the high score!",
+  "requestFramePermissions": []
+}
