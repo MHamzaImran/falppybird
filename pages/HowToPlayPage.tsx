@@ -10,13 +10,13 @@ const PlayIcon = () => (
 const HowToPlayPage: React.FC = () => {
   return (
     <div className="w-full max-w-2xl bg-sky-800/70 p-8 rounded-lg shadow-xl text-center backdrop-blur-sm text-sky-100">
-      <h1 className="text-4xl font-bold mb-6 text-yellow-300">How to Play FlappyBox</h1>
+      <h1 className="text-4xl font-bold mb-6 text-yellow-300">How to Play FlappyBird</h1>
       
       <div className="space-y-6 text-lg text-left">
         <div>
           <h2 className="text-2xl font-semibold mb-2 text-white">Objective</h2>
           <p>
-            The goal is simple: guide the yellow box through the green pipes without hitting them. Each pipe you successfully pass earns you one point.
+            The goal is simple: guide your retro pixel-art bird through the pipes without hitting them. Each pipe you successfully pass earns you one point.
           </p>
         </div>
 
@@ -35,7 +35,7 @@ const HowToPlayPage: React.FC = () => {
         <div>
           <h2 className="text-2xl font-semibold mb-2 text-white">Game Over</h2>
           <p>
-            Your game ends if the box hits a pipe or touches the ground or the top of the screen. Try to beat your high score!
+            Your game ends if the bird hits a pipe or touches the ground or the top of the screen. Try to beat your high score!
           </p>
         </div>
       </div>

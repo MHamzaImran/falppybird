@@ -75,7 +75,7 @@ const GamePage: React.FC = () => {
       case GameState.Idle:
         return (
           <div className="text-center">
-            <h2 className="text-5xl font-bold mb-4 animate-pulse">FlappyBox</h2>
+            <h2 className="text-5xl font-bold mb-4 animate-pulse">FlappyBird</h2>
             <p className="text-xl mb-8">Click or Press Space to Start</p>
             <Button onClick={handleUserAction} variant="primary">
                 <PlayIcon/> Start Game

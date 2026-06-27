@@ -12,6 +12,7 @@ export interface Bird {
   width: number;
   height: number;
   velocityY: number;
+  frameIndex: number;
 }
 
 export interface Pipe {
